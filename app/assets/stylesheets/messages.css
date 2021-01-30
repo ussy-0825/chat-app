@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+}
+
+.left-wrapper {
+  background-color: #253141;
+  height: 100vh;
+  width: 300px;
+}
+
+.right-wrapper {
+  background-color: #ffffff;
+  width: calc( 100vw - 300px);
+}
+
+.left-head {
+  height: 100px;
+  padding: 0 20px;
+}
+
+.left-bottom {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+.right-head {
+  height: 100px;
+  padding: 0 40px;
+}
+
+.right-center {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+}
+
+.right-bottom {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+}
