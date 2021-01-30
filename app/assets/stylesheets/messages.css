@@ -16,12 +16,17 @@
 .left-head {
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #253141;
 }
 
 .left-bottom {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
 .right-head {
@@ -39,4 +44,29 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+}
+
+.userbox a {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.chatbox a {
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  margin-right: 20px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.room {
+  padding: 20px 0 40px 20px;
+}
+
+.room-name a {
+  color: white;
+  text-decoration: none;
 }
