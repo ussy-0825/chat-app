@@ -12,8 +12,8 @@
 </div>
 
 <div class="right-center">
-  <div class="message-box">
-    <div class="message-topbox">
+<!--  <div class="message-box">
+    <div class="message-topbox"> 
       <div class="name">
         Tom
       </div>
@@ -42,7 +42,8 @@
         こんにちは
       </div>
     </div>
-  </div>
+  </div> -->
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], class: 'right-bottom', local: true do |f| %>
